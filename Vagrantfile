@@ -38,4 +38,6 @@ Vagrant.configure("2") do |config|
   # Install Memcached
   # config.vm.provision "shell", path: "https://raw.github.com/fideloper/Vaprobash/master/scripts/memcached.sh"
 
+  # Install Redis
+  # config.vm.provision "shell", path: "https://raw.github.com/fideloper/Vaprobash/master/scripts/redis.sh"
 end
